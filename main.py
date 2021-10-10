@@ -1,5 +1,5 @@
 import countries
-#import animals
+import foods
 import random
 
 def get_idx(arr):
@@ -8,9 +8,10 @@ def get_idx(arr):
 
 
 country = countries.get_country(get_idx(countries.countries))
-#animal = animals.get_animal(get_idx(animals.animals))
+food = foods.get_food(get_idx(foods.foods))
 print('You are going to ' + country)
-#print('And you are getting a ' + animal + '!')
+print('And you are getting a ' + food + ' to eat!')
+
 
 
 
